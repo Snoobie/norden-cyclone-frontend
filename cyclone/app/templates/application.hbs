@@ -1,0 +1,78 @@
+<script>
+  $('#button-menu').click(function(){
+    var res = $('#navbar-menu').css('display');
+    if (res && res == 'none')
+      $('#navbar-menu').show('slow');
+    else
+      $('#navbar-menu').hide('slow');
+  });
+</script>
+<div id="template-wrapper">
+  <div class='header navbar col-sm-12'>
+    <div id="logo" class="col-sm-2">
+      <img src="assets/images/logoeco.png" alt="eco-active">
+    </div>
+    <div id="button-menu" class="button-men">
+      <span class="menu-text">Menu<div class="glyphicon glyphicon-menu-hamburger glyphicon-button-menu"></div></span>
+    </div>
+    <ul id="navbar-menu" class='nav navbar-nav navbar-right navbar-top col-sm-10'>
+      <li><a href="#empresa" alt="empresa">Empresa</a></li>
+      <li><a href="#beneficios" alt="beneficios">Beneficios</a></li>
+      <li><a href="#optimizacion" alt="optimizacion">Optimización</a></li>
+      <li><a href="#videos" alt="videos">Videos</a></li>
+      <li><a href="#aplicaciones" alt="aplicaciones">Aplicaciones</a></li>
+      <li><a href="#preguntas" alt="preguntas">¿Preguntas?</a></li>
+      <li><a href="#blog" alt="blog">Blog</a></li>
+      <li><a href="#contacto" alt="contacto">Contacto</a></li>
+    </ul>
+  </div>
+  <div class='container col-sm-12'>
+    <div id="first_banner">
+      <img src="assets/images/bannernuevoprincipal.png" class="img-responsive" alt="Image convierte tu vehículo en Híbrido">
+      <a id="comprar1" href="#" class="button button-1">comprar</a>
+    </div>
+    <img src="assets/images/2-eco.jpg" class="img-responsive" alt="Beneficios del Sistema">
+    <img src="assets/images/3-eco.jpg" class="img-responsive" alt="Consumo habitual de combustible">
+    <img src="assets/images/4-eco.jpg" class="img-responsive" alt="Optimización de consumo">
+    <img src="assets/images/5-eco.jpg" class="img-responsive" alt="Ahorro, sin perdida de potencia">
+    <div class="contact-form col-sm-12">
+      <h2 class="contact-form-title">¿Preguntas frecuentes?</h2>
+      <div class="attr-hidden col-sm-6">
+        <div class="attr-hidden col-sm-12" style="height: 260px"></div>
+        <div class="attr-hidden col-sm-3"></div>
+        <a id="ver-preguntas" href="#" class="button2 col-sm-6">ver mas preguntas</a>
+      </div>
+      <div class="col-sm-6" style="margin-top:20px">
+        <input class="inp-nombre-email col-sm-9" alt="nombre email" placeholder="Nombre*">
+        <input class="inp-nombre-email col-sm-9" alt="nombre email" placeholder="E-mail*">
+        <input class="inp-mensaje col-sm-9" alt="mensaje eco/active" placeholder="Tu mensaje*">
+        <span class="col-sm-6 text-datos">* Datos obligatorios</span>
+        <a id="enviar" href="#" class="button2 col-sm-3">enviar</a>
+      </div>
+    </div>
+    <div id="map-canvas"></div>
+  </div>
+  <div class='container-footer col-sm-12'>
+    <div class="logo-redes row">
+      <div class="attr-hidden col-sm-5" style="width:39%"></div>
+      <img src="assets/images/logocyclonesolo.png" class="img-responsive col-sm-3" alt="Cyclone eco/active">
+      <div class="attr-hidden col-sm-1"></div>
+      <ul class="redes-sociales col-sm-3">
+        <li class="col-sm-3"><a href="#" alt="Facebook redes sociales"><img src="assets/images/botonface.jpg" class="img-responsive" alt="Icono Facebook redes sociales"></a></li>
+        <li class="col-sm-3"><a href="#" alt="Twitter redes sociales"><img src="assets/images/botontwitter.jpg" class="img-responsive" alt="Icono Twitter redes sociales"></a></li>
+        <li class="col-sm-3"><a href="#" alt="Youtube redes sociales"><img src="assets/images/botonyoutube.jpg" class="img-responsive" alt="Icono Youtube redes sociales"></a></li>
+      </ul>
+    </div>
+    <div class="information-contact col-sm-12">
+      <span class="col-sm-4 contact-cell-street">Calle Chimalpopoca No.140, Col. Cuidad del Sol<br>C.P. 45050 Zapopan, Jalisco, México.</span>
+      <span class="col-sm-2 contact-cell"><a href="www.cyclone.com">www.cyclone.com</a></span>
+      <span class="col-sm-2 contact-cell">Tel. (33) 31223891</span>
+      <span class="col-sm-4 contact-cell"><a href="mailto:ventas@cyclone.com">ventas@cyclone.com</a></span>
+    </div>
+    <div class="end-footer col-sm-12">
+      <span class="col-sm-7 text-marca" style="margin-top: 40px;">Marca Registrada ® ENDORCORE® 2014. Todos los derechos reservados.</span>
+      <div class="attr-hidden col-sm-3"></div>
+      <img src="assets/images/logoendorcore.png" class="img-responsive col-sm-2 img-endorcore" alt="Imagen endorcore logo">
+    </div>
+  </div>
+</div>
